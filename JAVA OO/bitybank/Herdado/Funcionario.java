@@ -3,7 +3,8 @@ public class Funcionario {
 
 	private String nome;
 	private String cpf;
-	protected double salario; // protected fica entre publico e privado | Somente visivel para herdeiros (classes filhas);
+	private double salario;
+	//protected double salario; // protected fica entre publico e privado | Somente visivel para herdeiros (classes filhas);
 
 	public double bonificacao() {
 		System.out.println("Cargo: Comun");
