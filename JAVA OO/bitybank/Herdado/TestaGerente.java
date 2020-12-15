@@ -1,3 +1,4 @@
+
 public class TestaGerente {
 	public static void main(String[] args) {
 		Gerente novoGerente = new Gerente();
@@ -14,6 +15,6 @@ public class TestaGerente {
 		boolean teste = novoGerente.autentica(2222);
 		
 		System.out.println(teste);
-		
+		System.out.println("Bonificação: " + novoGerente.bonificacao());
 	}
 }
